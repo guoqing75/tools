@@ -1,0 +1,97 @@
+$ sudo perl ./findbigmouse.pl -p /d
+df: 未处理文件系统
+   1285580k,/var/run
+   1285580k,/var/lock
+   7832620k,/media/YOURNAME8GSD
+   1285580k,/lib/init/rw
+   1285580k,/dev/shm
+   1285580k,/dev
+  37539820k,/d
+   9305844k,/
+--------------------------------------
+--- Notice, passed procfs and nfs mount valume.
+Filer:
+    start_dir:/d
+    depth_number:6
+    min_size_to_print:100000(k)
+    min_percent_to_print:1%
+--------------------------------------crawling ...
+D  0%     209124K 20100503-023924 /d/yourname/.cache/google-chrome/Cache
+D  0%     212021K 20100427-103208 /d/yourname/.cache/google-chrome
+D  0%     219613K 20100426-124802 /d/yourname/.cache
+D  0%     120944K 20100418-020131 /d/yourname/ubuntu/etc/alternatives
+D  0%     134094K 20100502-044216 /d/yourname/ubuntu/etc
+D  0%     136436K 20091121-095624 /d/yourname/ubuntu
+D  3%    1133055K 20100417-211010 /d/yourname/.mozilla-thunderbird/abcdefgh.default/Mail/Local Folders
+D  3%    1246885K 20091028-111426 /d/yourname/.mozilla-thunderbird/abcdefgh.default/Mail
+D  3%    1266458K 20100504-032903 /d/yourname/.mozilla-thunderbird/abcdefgh.default
+D  3%    1271590K 20091102-140358 /d/yourname/.mozilla-thunderbird
+D  0%     287115K 20100504-035740 /d/yourname/.thumbnails/normal
+D  0%     288340K 20100109-180521 /d/yourname/.thumbnails
+D  0%     127248K 20100430-232200 /d/yourname/.purple
+F  3%    1219549K 20100504-050316 /d/yourname/.aMule/Temp/013.part
+F  1%     714178K 20100503-170313 /d/yourname/.aMule/Temp/010.part
+F  3%    1368000K 20100503-170313 /d/yourname/.aMule/Temp/005.part
+F  1%     703000K 20100503-170313 /d/yourname/.aMule/Temp/003.part
+F  1%     715672K 20100503-165139 /d/yourname/.aMule/Temp/008.part
+F  1%     674683K 20100504-050400 /d/yourname/.aMule/Temp/001.part
+F  1%     703020K 20100503-170313 /d/yourname/.aMule/Temp/007.part
+F  1%     717645K 20100503-170313 /d/yourname/.aMule/Temp/002.part
+F  1%     706388K 20100503-170313 /d/yourname/.aMule/Temp/004.part
+D 20%    7522161K 20100504-050400 /d/yourname/.aMule/Temp
+F  1%     713664K 20100503-115544 /d/yourname/.aMule/Incoming/喜羊羊与灰太狼之虎虎生威.pleasant.goat.and.big.big.wolf.2010.cn.dvdrip.xvid-xtm.avi
+F  0%     361074K 20100503-153227 /d/yourname/.aMule/Incoming/[电影天堂].越光宝盒.rmvb
+D  2%    1090261K 20100503-153251 /d/yourname/.aMule/Incoming
+D 22%    8615115K 20100504-050314 /d/yourname/.aMule
+D  0%     221039K 20100418-031946 /d/yourname/.mozilla/firefox
+D  0%     221593K 20091207-101251 /d/yourname/.mozilla
+D 31%   11909383K 20100504-050356 /d/yourname
+D  0%     169301K 20100306-080825 /d/software/bb_software
+D  0%     307384K 20100418-035803 /d/software/910
+D  1%     508023K 20100417-233424 /d/software
+D  1%     620598K 20091029-015322 /d/english/new1
+D  1%     664630K 20100325-112610 /d/english
+D  0%     110460K 20100322-173834 /d/mp3/凤凰传奇
+D  0%     104141K 20100210-132627 /d/mp3/民族
+D  1%     649370K 20100325-112610 /d/mp3
+F  1%     533236K 20100410-200401 /d/tmp/yournamedel.tar.gz
+D  1%     675073K 20100504-035808 /d/tmp
+F  9%    3536921K 20100216-025556 /d/virtualbox/HardDisks/centos5.4.vdi
+F 16%    6271000K 20100503-171042 /d/virtualbox/HardDisks/winxp.vdi
+D 26%    9807921K 20091123-130117 /d/virtualbox/HardDisks
+D 26%    9882813K 20091110-101559 /d/virtualbox
+D  0%     226834K 20100428-172858 /d/docs/network
+D  0%     304841K 20100426-123148 /d/docs/linux
+D  0%     290439K 20090907-145758 /d/docs/mysql
+D  0%     145434K 20091121-201012 /d/docs/perl
+D  0%     174526K 20091122-004347 /d/docs/unix
+F  0%     132269K 20091015-113228 /d/docs/program/ruby/ruby_metapro.zip
+D  0%     138622K 20091021-093528 /d/docs/program/ruby
+D  0%     222058K 20100426-023535 /d/docs/program/python/ebook
+D  0%     341152K 20100426-023535 /d/docs/program/python
+D  1%     650992K 20100426-005236 /d/docs/program
+D  0%     251438K 20090321-214052 /d/docs/理财
+D  0%     121774K 20100415-181950 /d/docs/php
+D  8%    3194975K 20100419-185813 /d/docs
+D  0%     152084K 20100429-191617 /d/abcd_winxp/download
+D  0%     283538K 20090905-145015 /d/abcd_winxp/app_tools/wangwang/AliWangWang/profiles
+D  0%     362427K 20100122-151744 /d/abcd_winxp/app_tools/wangwang/AliWangWang
+D  0%     362572K 20090831-182600 /d/abcd_winxp/app_tools/wangwang
+D  0%     367486K 20091122-024039 /d/abcd_winxp/app_tools
+D  1%     382494K 20100430-162756 /d/abcd_winxp/tmp
+D  0%     131316K 20100323-194712 /d/abcd_winxp/docs/dev
+D  0%     257336K 20100411-001705 /d/abcd_winxp/docs
+D  3%    1170095K 20100310-100520 /d/abcd_winxp
+D  7%    2769018K 20100424-233318 /d/photos/20100425_20100503
+D  5%    2189728K 20100424-205124 /d/photos/20100410_20100411
+D  2%    1071483K 20100424-112756 /d/photos/2010_04_24_运河公园
+D 16%    6303386K 20100504-035802 /d/photos
+F  0%     121755K 20080412-060317 /d/abcd_self/app_tools/Outlook2003.tar.gz
+D  1%     383950K 20100427-102151 /d/abcd_self/app_tools
+D  0%     105816K 20100426-011849 /d/abcd_self/ppc/wm65
+D  0%     287601K 20100414-201056 /d/abcd_self/ppc
+D  4%    1621219K 20100413-123230 /d/abcd_self
+D  0%     162883K 20061215-022114 /d/abcd/app_tools/Outlook Express
+D  0%     356267K 20061215-022130 /d/abcd/app_tools
+D  1%     648677K 20061215-022236 /d/abcd
+D102%   38431663K 20100412-105501 /d
